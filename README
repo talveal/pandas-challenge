@@ -1,0 +1,13 @@
+# PyCity Schools Analysis
+
+- The datasets provide data on a school district, covering 15 high schools. The dataset includes data on each schools' budget, size of the student body, as well as data on the students attending the high schools in the district. We have their name, gender, grade, attending high school, and math and reading scores on what I assume to be a standardized test. 
+  
+- Our first step on the analysis is to merge the two datasets into one, and from there we begin a district summary to analyze the number of passing students and average reading and math scores across the district for each high school. We also calculate an overall passing rate. After this, we create another dataframe for analysis. We learn that the passing rate for math scores is 74.980853%, for reading 85.805463%, and the overall passing rate for both math and reading is	65.172326%. We also learn that the high schools with the three highest overall passing rates are Cabrera High School, Thomas High School, and Griffin High School. 
+
+- Next, we prepare a per-school summmary to analyze the scores per school in the district, and also take into account each school's budget. Through further analysis, we see that charter schools have higher passing rates, and higher scores than district schools.
+
+- We can make two conclusions from this data:
+    - In this school district, the size of the school and the type of school are the best indicators for a school's passing rates and average reading and math scores. However, I do think that between the two, school size is the best indicator. This is because when schools have smaller student bodies, teachers are better able to attend to their needs. However, the type of school does seem to have a factor here, but I think we may need more data on that to be able to draw any more conclusions.
+    - As budget goes up, the average scores of the schools go down. This would mean that higher budgets do not result in higher scores/passing rates. 
+    - There is no significant change in the average reading and math scores per grade. 
+---
